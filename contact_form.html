@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+</head>
+<body>
+  <h1>Contact Form</h1>
+  <form action="#" method="post">
+    <dl>
+      <dt><label for="username">Name</label></dt>
+      <dd><input id="username" name="username"></dd>
+      <dt><label for="email">Email</label></dt>
+      <dd><input id="email" name="email"></dd>
+      <dt><label for="area">Address Area</label></dt>
+      <dd>
+        <select id="area" name="address area">
+          <option value="" selected>select</option>
+          <option value="newyork">New York</option>
+          <option value="paris">Paris</option>
+          <option value="tokyo">Tokyo</option>
+          <option value="osaka">Osaka</option>
+          <option value="newdelly">New Delly</option>
+          <option value="taipei">Taipei</option>
+          <option value="sanfrancisco">San Francisco</option>
+          <option value="siriconvalley">Siricon Valley</option>
+        </select>
+      </dd>
+      <dt>Gender</dt>
+      <dd>
+        <label><input type="radio" name="gender" value="male" checked>male</label>
+        <label><input type="radio" name="gender" value="female">female</label>
+        <label><input type="radio" name="gender" value="genderless">genderless</label>
+      </dd>
+      <dt>Contact Contents</dt>
+      <dd>
+        <textarea name="contents"></textarea>
+      </dd>
+      <dt><label for="privacy">Privacy Policy</label></dt>
+      <dd>
+        <input type="checkbox" id="privacy" name="privacy" value="1" checked>
+      </dd>
+      <input type="submit" value="submit">
+    </dl>
+  </form>
+
+</body>
+</html>
