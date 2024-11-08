@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hiring Coffe Clerk</title>
+</head>
+<body>
+  <h1>Hiring Coffe Clerk Apply Form</h1>
+  <form action="" method="post">
+    <dl>
+      <dt><label for="username">Name</label></dt>
+      <dd><input id="username" type="text" required></dd>
+      <dt><label for="email">Email</label></dt>
+      <dd><input type="text" name="email"></dd>
+      <dt>Gender</dt>
+      <dd>
+        <label><input type="radio" name="gender" value="male" checked>Man</label>
+        <label><input type="radio" name="gender" value="female">Female</label>
+        <label><input type="radio" name="gender" value="genderless">Genderless</label>
+      </dd>
+      <dt><label for="job">Current Job</label></dt>
+      <dd>
+        <select name="job" id="job">
+          <option value="" selected>select</option>
+          <option value="students">Students</option>
+          <option value="jobless">Jobless</option>
+          <option value="other">Other</option>
+        </select>
+      </dd>
+      <dt><label for="pr">PR</label></dt>
+      <dd><textarea name="pr" id="pr"></textarea></dd>
+      <dt><label for="privacy">Agree Privacy Policy</label></dt>
+      <dd><input type="checkbox" id="privacy" name="privacy" selected></dd>
+      
+      <input type="submit" name="submit" value="subimt">
+    </dl>
+  </form>
+</body>
+</html>
